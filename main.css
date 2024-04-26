@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+        font-family: "Jersey 15", sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 20px;
+}
+header{
+    padding: 16px 0; 
+    background-color: rgb(228, 14, 14);
+    color: black;
+}
+header, .about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header li{
+    display: inline;
+    margin-left: 0px;
+    font-size: 25px;
+    margin-right: 40px;
+}
+header nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+section .container h2{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.produtos-games li img, .produtos-eletronicos li img{
+    height: 200px;
+}
+.produtos-games li, .produtos-eletronicos li{
+    display: inline;
+}
+
+.produtos-games, .produtos-eletronicos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+section{
+    padding: 16px;
+}
+
+.produtos-eletronicos a, .produtos-games a {
+    background-color: rgba(255, 0, 0, 0.904);
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+
+#propaganda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#propaganda img{
+    height: 400px;
+}
+#fachadadaloja{
+    height: 100px;
+}
+
+
+.lista-marcas img{
+    height: 24px;
+}
+.lista-marcas li{
+    display: inline;
+    margin-left: 8px;
+}
+
+.about{
+    align-items: self-start;
+}
+.about{
+    padding: 24px 0;
+}
+.about h2{
+    margin-bottom: 16px;
+}
+.about p{
+    margin-bottom: 8px;
+}
+.fachada-da-loja{
+    margin-right: 32px;
+}
+
+.social-links img{
+    height: 24px;
+    margin-top: 8px;
+}
+.social-links li{
+    display: inline;
+    margin-right: 8px;
+}
+.social-links li a{
+    text-decoration: none;
+}
+#contato .container{
+    display: block;
+    
+}
+.metodos-contato{
+    display: flex;
+    justify-content: space-between;
+}
+form input, textarea, button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+form button{
+    background-color: rgba(255, 0, 0, 0.904);
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: rgba(255, 0, 0, 0.541);
+}
+
+input:focus, textarea:focus{
+    outline-color: rgba(255, 0, 0, 0.904);
+}
+footer{
+    background-color: rgba(255, 0, 0, 0.904);
+    color: black;
+    padding: 16px 0;
+}
